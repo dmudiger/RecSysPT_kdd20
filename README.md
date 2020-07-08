@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+Building Recommender Systems with PyTorch - KDD 2020 Tutorial
+========================================================================
+*Dheevatsa Mudigere, Maxim Naumov, Narine Kokhlikyan, Amanpreet Singh, Geeta Chauhan, Joe Spisak*
 
-You can use the [editor on GitHub](https://github.com/dmudiger/RecSysPT_kdd20.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+In this tutorial we show how to build deep learning recommendation systems and resolve the associated interpretability, integrity and privacy challenges. We start with an overview of the PyTorch framework, features that it offers and a brief review of the evolution of recommendation models. We delineate their typical components and build a proxy deep learning recommendation model [DLRM](https://github.com/facebookresearch/dlrm) in PyTorch. Then, we discuss how to interpret recommendation system results as well as how to address the corresponding integrity and quality challenges.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The material will be presented in the following talks:
+  - Why PyTorch?
+  - Recommender Systems using DLRM
+  - Using [Captum](https://captum.ai/) for Interpretability for recommender systems
+  - Solving integrity / QC challenges for recommender systems
 
-### Markdown
+The tutorial will start with basic concepts and will proceed into more advanced topics following a chronological order of the presentations. The audience is expected to have some basic understanding of deep learning frameworks and models that will be supplemented with the material in the early talks. The audience will have an opportunity to learn more advanced topics and models as the tutorial proceeds.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Relevant References
 
-# Header 1
-## Header 2
-### Header 3
+- [ASPLOS’20 Tutorial](https://personal-tutorial.com/personal-at-asplos-2020/)
+- [PyTorch](https://pytorch.org/)
+- [DLRM benchmark](https://github.com/facebookresearch/dlrm), [blog](https://ai.facebook.com/blog/dlrm-an-advanced-open-source-deep-learning-recommendation-model/), [paper](https://arxiv.org/abs/1906.00091)
+- [Captum](https://captum.ai/)
+- [Compositional Embeddings Using Complementary Partitions for Memory-Efficient Recommendation Systems, research track paper at KDD'2020](https://arxiv.org/abs/1909.02107)
+- [Mixed Dimension Embeddings with Application to Memory-Efficient Recommendation Systems](https://arxiv.org/abs/1909.11810)
+- [Deep Learning Inference in Facebook Data Centers: Characterization, Performance Optimizations and Hardware Implications](https://arxiv.org/abs/1811.09886)
+- [Deep Learning Training in Facebook Data Centers: Design of Scale-up and Scale-out Systems](https://arxiv.org/abs/2003.09518)
+- [The Architectural Implications of Facebook's DNN-based Personalized Recommendation, HPCA 2020](https://paperswithcode.com/paper/the-architectural-implications-of-facebooks)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dmudiger/RecSysPT_kdd20.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
